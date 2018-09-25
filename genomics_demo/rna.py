@@ -24,4 +24,3 @@ class RNA:
     def complimentary_sequence(self):
         return RNA(''.join(complimentary_nucleotides[nt.upper()] for nt in self.sequence))
 
-
